@@ -16,14 +16,8 @@ def chat_with_bot(message, history):
 # Create Gradio interface with chat style
 iface = gr.ChatInterface(
     fn=chat_with_bot,
-    title="🤖 Professional AI Assistant",
+    title="🤖 EXLNemoGDemoBot",
     description="Get expert advice on legal, financial, and business matters. Our AI is here to help!",
-    examples=[
-        ["What are the key elements of a non-disclosure agreement?"],
-        ["Can you explain the concept of diversification in investing?"],
-        ["What are some tax deductions available for small businesses?"],
-        ["How do I create a basic business plan?"],
-    ],
     retry_btn="Retry",
     undo_btn="Undo",
     clear_btn="Clear Conversation",
