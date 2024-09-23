@@ -26,7 +26,7 @@ echo "To stop the processes, run: ./stopgard.sh"
 
 # Display the access links
 echo "Access the FastAPI server at: http://localhost:8000"
-echo "Access the Gradio app at: http://localhost:8001"
+echo "Access the Gradio app at: http://localhost:8002"
 
 # Create a stop script
 cat << EOF > stopgard.sh

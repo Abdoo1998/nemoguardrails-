@@ -32,5 +32,5 @@ if __name__ == "__main__":
     iface.launch(
         share=True,  # Set to False if you don't want to generate a public URL
         debug=True,
-        server_port=8001,
+        server_port=8002,
     )
